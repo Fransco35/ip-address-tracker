@@ -2,37 +2,91 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.firstContainer {
+  height: 50vh;
+  background-image: url("../public/images/pattern-bg-desktop.png");
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+}
+
+.firstContainer h1 {
+  margin: 40px 0;
+  color: #fff;
+}
+
+.formbox {
+  width: 50rem;
+  margin: 20px auto;
+}
+
+.form_input {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.input_field {
+  border: 1px solid #000;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  display: inline-block;
+  background-color: #fff;
+  font-size: 18px;
+  padding: 20px 40px;
+  width: 50%;
+  margin-right: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.input_field:focus {
+  outline: none;
+  border: 1px solid #2998ff;
+}
+
+.input_field::placeholder {
+  font-size: 18px;
+}
+
+.input_btn {
+  height: 66px;
+  border: 1px solid #000;
+  background-color: #000;
+  width: 70px;
+  border-radius: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.secondContainer {
+  background-color: gray;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 70vw;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: -100px;
+  padding: 40px;
+}
+
+.secondContainerDetail {
+  width: 200px;
+  text-align: left;
+}
+
+.secondContainerDetail:not(:last-child) {
+  border-right: 1px solid darkgray;
+}
+
+@media screen and(max-width: 768px) {
+  .formbox {
+    width: 30rem;
   }
-  to {
-    transform: rotate(360deg);
+  .input_field {
+    font-size: 15px;
+  }
+  .secondContainer {
+    padding: 20px;
+  }
+  .secondContainerDetail h2 {
+    font-size: 0.8em;
   }
 }
