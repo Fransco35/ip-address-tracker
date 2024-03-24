@@ -148,18 +148,27 @@
 @media screen and (max-width: 425px) {
   .firstContainer {
     background-image: url("../public/images/pattern-bg-mobile.png");
-    height: 300px;
+    height: 250px;
   }
 
   .firstContainer h1 {
     font-size: 25px;
   }
   .formbox {
-    width: 20rem;
+    width: 18rem;
+  }
+
+  .input_field {
+    font-size: 15px;
+    padding: 10px 20px;
   }
 
   .input_field::placeholder {
-    font-size: 15px;
+    font-size: 10px;
+  }
+
+  .input_btn {
+    height: 40px;
   }
 
   .secondContainer {
@@ -177,7 +186,6 @@
   }
 
   .mapContainer {
-    /* height: 400px; */
     width: 100%;
   }
 }
