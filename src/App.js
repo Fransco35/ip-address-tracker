@@ -56,7 +56,7 @@ function App() {
   async function startSearch(value) {
     try {
       const response = await fetch(
-        `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}=${value}`
+        `https://geo.ipify.org/api/v2/country,city?apiKey=${apiKey}&domain=${value}`
       );
       if (!response.ok) {
         throw new Error("Failed to fetch");

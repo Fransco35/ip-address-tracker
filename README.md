@@ -11,7 +11,7 @@ This is an ip address tracker app where users are able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.jpeg)
 
 ### Links
 
