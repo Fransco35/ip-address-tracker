@@ -63,6 +63,7 @@
 .input_btn:active {
   background-color: hsl(0, 0%, 17%);
 }
+
 .secondContainer {
   background-color: #fff;
   border-radius: 30px;
@@ -99,6 +100,11 @@
   margin-top: -79px;
   z-index: 1;
   position: relative;
+}
+
+.mapContainer {
+  height: 536px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -140,6 +146,13 @@
 }
 
 @media screen and (max-width: 425px) {
+  .firstContainer {
+    background-image: url("../public/images/pattern-bg-mobile.png");
+  }
+
+  .firstContainer h1 {
+    font-size: 25px;
+  }
   .formbox {
     width: 20rem;
   }
@@ -149,6 +162,20 @@
   }
 
   .secondContainer {
+    padding: 20px;
     width: 65vw;
+  }
+
+  .secondContainerDetail h2 {
+    font-size: 17px;
+  }
+
+  .thirdContainer {
+    margin-top: -170px;
+  }
+
+  .mapContainer {
+    height: 536px;
+    width: 100%;
   }
 }
