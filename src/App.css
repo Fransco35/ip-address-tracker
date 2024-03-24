@@ -148,6 +148,7 @@
 @media screen and (max-width: 425px) {
   .firstContainer {
     background-image: url("../public/images/pattern-bg-mobile.png");
+    height: 60vh;
   }
 
   .firstContainer h1 {
@@ -164,6 +165,7 @@
   .secondContainer {
     padding: 20px;
     width: 65vw;
+    margin-top: -150px;
   }
 
   .secondContainerDetail h2 {
@@ -175,7 +177,7 @@
   }
 
   .mapContainer {
-    height: 536px;
+    height: 400px;
     width: 100%;
   }
 }
