@@ -16,7 +16,7 @@ This is an ip address tracker app where users are able to:
 ### Links
 
 - Github URL: (https://https://github.com/Fransco35/ip-address-tracker)
-- Live Site URL: (https://ip-address-tracker.vercel.app)
+- Live Site URL: (https://ip-address-tracker-iota-tan.vercel.app)
 
 ### Built with
 
