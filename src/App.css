@@ -56,7 +56,7 @@
   border-bottom-right-radius: 20px;
 }
 .secondContainer {
-  background-color: gray;
+  background-color: #fff;
   border-radius: 30px;
   display: flex;
   justify-content: space-evenly;
@@ -65,6 +65,8 @@
   margin: 0 auto;
   margin-top: -100px;
   padding: 40px;
+  z-index: 2;
+  position: relative;
 }
 
 .secondContainerDetail {
@@ -74,6 +76,12 @@
 
 .secondContainerDetail:not(:last-child) {
   border-right: 1px solid darkgray;
+}
+
+.thirdContainer {
+  margin-top: -79px;
+  z-index: 1;
+  position: relative;
 }
 
 @media screen and(max-width: 768px) {
