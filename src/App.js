@@ -88,7 +88,7 @@ function App() {
                     placeholder="Search for any IP address or domain"
                   />
                   <button className="input_btn">
-                    <img src="/images/icon-arrow.svg" alt="icon" />
+                    <img src="/images/icon-arrow.svg" alt="button_icon" />
                   </button>
                 </form>
               </div>
@@ -142,8 +142,6 @@ function App() {
       )}
     </div>
   );
-
-  // return <h1>Hello</h1>;
 }
 
 export default App;
